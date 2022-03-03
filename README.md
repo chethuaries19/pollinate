@@ -7,7 +7,7 @@ Table used to store the data is built in MS SQL.
 
 ## Detailed Design
 
-The API built as part of the assignment inserts the timestamp into the Product table which is stored in the MS SQL database.
+The API built as part of the project inserts the timestamp into the Product table which is stored in the MS SQL database.
 
 The product table is replicated in the API as a model class where the column names are defined as the variables in the class.
 
@@ -37,7 +37,7 @@ The table structure of the product table is described below:
 
 The API is built to be executable on your device if the following pre-requisites are met.
 
-•	Nothing running on the port 8080 as this is the port where the API is being executed.
+•	port 8080 should be free as this is the port where the API is being executed.
 
 •	A database built in your local environment whose details are included in the application.properties file of the code
 
@@ -54,4 +54,16 @@ To post the data to the database the user need to mention two columns in the par
 
 To use the curl command the user can execute the below command:
 
-curl -X POST http://localhost:8080/demo/app?id=2&timeStamp=2021-11-30
+*Open cmd.exe
+
+*Execute the command curl -X POST http://localhost:8080/demo/app?id=2&timeStamp=2021-11-30
+
+<img width="477" alt="image" src="https://user-images.githubusercontent.com/100843284/156560475-39359564-d82e-4068-8829-927995a9f4f1.png">
+
+## MSSQL
+
+Below screenshot shows the data in the database
+
+<img width="934" alt="image" src="https://user-images.githubusercontent.com/100843284/156561845-cadfb663-1c72-4255-8416-00ad5a71c0d9.png">
+
+
