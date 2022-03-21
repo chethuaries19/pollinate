@@ -1,7 +1,7 @@
 # Pollinate Assignment
 
 The Scope of this project is to call an API which will push the data to the database. The API is written in Java and built in Spring boot.
-Table used to store the data is built in MS SQL.
+Table used to store the data is built in My SQL.
 
 ![image](https://user-images.githubusercontent.com/100843284/156559114-b15dc4c4-2d09-4459-a9c3-fccec15df2b9.png)
 
